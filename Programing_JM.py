@@ -1,5 +1,5 @@
 #//Jefferson_Mendoza_2410521
-#//
+#//15-12-2025
 
 
 
@@ -78,15 +78,29 @@
 
 # Activity 1 - Simple Receipt
 
-print("Enter item name:")
-item_name = input()
+#print("Enter item name:")
+#item_name = input()
 
-print("Enter price:")
-price = float(input())
+#print("Enter price:")
+#price = float(input())
 
-print("Enter quantity:")
-quantity = int(input())
+#print("Enter quantity:")
+#quantity = int(input())
 
-total = price * quantity
+#total = price * quantity
 
-print("Total is", total)
+#print("Total is", total)
+
+# Activity 2 – Compare Styles Given variables
+name = "Sam"
+age = 19
+course = "COM4402"
+
+# 1. Using concatenation +
+print("Hello " + name + ", you are " + str(age) + " and enrolled in " + course + ".")
+
+# 2. Using commas print()
+print("Hello", name + ", you are", age, "and enrolled in", course + ".")
+
+# 3. Using an f-string
+print(f"Hello {name}, you are {age} and enrolled in {course}.")
