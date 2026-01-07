@@ -1,0 +1,90 @@
+def tracing_example_1():
+    row = 0
+    while row < 3:
+        col = 0
+        while col < 4:
+            print("*", end="")
+            col = col + 1
+        print()
+        row = row + 1
+
+tracing_example_1()
+
+def activity_1():
+    rows = 5
+    row = 1
+
+    while row <= rows:
+        col = 0
+        while col < row:
+            print(row, end="")
+            col = col + 1
+        print()
+        row = row + 1
+activity_1()
+
+def activity_2():
+    rows = 3
+    cols = 4
+    r = 0
+
+    while r < rows:
+        c = 0
+        while c < cols:
+            print(f"({r},{c})", end=" ")
+            c = c + 1
+        print()
+        r = r + 1
+activity_2()
+
+
+def activity_3():
+    size = 5
+    row = 1
+
+    while row <= size:
+        col = 1
+        while col <= size:
+            print(row * col, end=" ")
+            col = col + 1
+        print()
+        row = row + 1
+activity_3()
+
+def activity_4():
+    rows = 4
+    row = 1
+
+    while row <= rows:
+        spaces = rows - row
+        stars = 2 * row - 1
+
+        s = 0
+        while s < spaces:
+            print(" ", end="")
+            s = s + 1
+
+        st = 0
+        while st < stars:
+            print("*", end="")
+            st = st + 1
+
+        print()
+        row = row + 1
+activity_4()
+
+def activity_5():
+    size = 8
+    r = 0
+
+    while r < size:
+        c = 0
+        while c < size:
+            if (r + c) % 2 == 0:
+                print("#", end="")
+            else:
+                print(".", end="")
+            c = c + 1
+        print()
+        r = r + 1
+activity_5()
