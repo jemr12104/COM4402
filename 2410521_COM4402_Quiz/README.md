@@ -1,0 +1,26 @@
+Holton College Digital Quiz System
+
+This project is for my COM4402 Programming module at Holton College.
+This is the implementation part of the quiz system that I planned before using a flowchart and pseudocode.
+
+Student Name: Jefferson Eduardo Mendoza Rios
+Student Number: 2410521
+Module Code: COM4402
+Assessment: Part 2 – Implementation (Python Quiz)
+
+Project Description
+
+This is a simple quiz program made in Python.
+The program shows one question at a time with different answer options.
+The user types the answer, and the program checks if it is correct.
+It also counts the score at the end.
+
+I am creating this program step by step to show my learning and basic understanding of Python.
+
+How to Run the Program
+
+Make sure Python 3 is installed on your computer
+Open a terminal in the folder 2410521_COM4402_Quiz
+Run this command:
+
+python quiz.py
