@@ -30,3 +30,23 @@ I am creating this program step by step to show my learning and basic understand
 2. Open a terminal in the folder `2410521_COM4402_Quiz`  
 3. Run this command:
 
+
+---
+
+## Development Status
+
+I am working on:
+- storing questions in Python lists  
+- asking the user for input  
+- validating answers  
+- checking correct or incorrect  
+- keeping the score  
+
+More features will be added as I continue developing the project.
+
+---
+
+## Notes
+
+This project will grow during the next days.  
+I will make regular commits to show my progress for Assessment 2.
