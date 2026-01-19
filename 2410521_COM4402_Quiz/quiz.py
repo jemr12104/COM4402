@@ -13,7 +13,7 @@ def ask_question(question, options):
 
     user_answer = input("Your answer: ")
 
-    while user_answer not in ["1", "2", "3", "4"]:
+    while user_answer not in ["1", "2", "3", "4"]: #answer validation happens
    
         print("Sorry, that is not a valid option")
 
@@ -61,7 +61,7 @@ def run_quiz():
         print("----------------------")
 
         if  result == True:
-            score = score + 1
+            score = score 
 
     print("You answered", score, "out of", len(questions), "correct.")
     print("Quiz finished.")
